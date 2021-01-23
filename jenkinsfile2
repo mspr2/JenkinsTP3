@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Etape de build avec GitHub"
+                echo "Etape de build avec GitHub Auto"
                 sh 'python3 --version'
             }
         }
